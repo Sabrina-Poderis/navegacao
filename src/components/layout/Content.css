@@ -1,6 +1,12 @@
-.Content{
+.Content {
+    display: flex;
+    flex-grow: 1;
+    background-color: #ececec;
+    padding: 30px;
+}
+
+.Content > * {
     display: flex;
     flex: 1;
-    background-color: #edf6f9;
-    padding: 30px;
+    flex-direction: column;
 }

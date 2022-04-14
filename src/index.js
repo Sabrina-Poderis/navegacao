@@ -1,9 +1,10 @@
 import './index.css'
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './views/App';
+import ReactDOM from 'react-dom'
+import React from 'react'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <App />
-);
+import App from './views/App'
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('root')
+)
