@@ -1,9 +1,16 @@
 import './Content.css'
 import React from "react";
+import { Routes, Route } from 'react-router-dom';
+
+import About from '../../views/examples/About'
+import Home from '../../views/examples/Home'
 
 const Content = props => (
     <main className="Content">
-        Componente Content
+        <Routes>
+            <Route path='/' element={<Home/>}></Route>
+            <Route path='/about' element={<About/>}></Route>
+        </Routes>
     </main>
 )
 
